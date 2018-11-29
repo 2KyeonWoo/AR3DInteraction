@@ -13,6 +13,10 @@
 		F1A4F96421AF7D5A0086087B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1A4F96221AF7D5A0086087B /* LaunchScreen.storyboard */; };
 		F1A4F96E21AF810C0086087B /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F1A4F96C21AF810C0086087B /* Models.scnassets */; };
 		F1A4F96F21AF810C0086087B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1A4F96D21AF810C0086087B /* Assets.xcassets */; };
+		F1A4F97A21AFD3AB0086087B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A4F97921AFD3AB0086087B /* Utilities.swift */; };
+		F1A4F97C21AFD5670086087B /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A4F97B21AFD5670086087B /* StatusViewController.swift */; };
+		F1A4F97E21AFDE640086087B /* VirtualObjectSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A4F97D21AFDE640086087B /* VirtualObjectSelection.swift */; };
+		F1A4F98021AFE0AA0086087B /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A4F97F21AFE0AA0086087B /* FocusSquare.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		F1A4F96521AF7D5A0086087B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1A4F96C21AF810C0086087B /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
 		F1A4F96D21AF810C0086087B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1A4F97921AFD3AB0086087B /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		F1A4F97B21AFD5670086087B /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		F1A4F97D21AFDE640086087B /* VirtualObjectSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObjectSelection.swift; sourceTree = "<group>"; };
+		F1A4F97F21AFE0AA0086087B /* FocusSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSquare.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 		F1A4F95621AF7D590086087B /* AR3DInteraction */ = {
 			isa = PBXGroup;
 			children = (
+				F1A4F97321AF84B30086087B /* Additional ViewControllers */,
+				F1A4F97221AF84A40086087B /* Utilities */,
+				F1A4F97121AF849C0086087B /* Focus Square */,
+				F1A4F97021AF848A0086087B /* Virtual Objects */,
 				F1A4F96B21AF80EC0086087B /* Resources */,
 				F1A4F95721AF7D590086087B /* AppDelegate.swift */,
 				F1A4F95B21AF7D590086087B /* ViewController.swift */,
@@ -73,6 +85,38 @@
 				F1A4F96C21AF810C0086087B /* Models.scnassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		F1A4F97021AF848A0086087B /* Virtual Objects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Virtual Objects";
+			sourceTree = "<group>";
+		};
+		F1A4F97121AF849C0086087B /* Focus Square */ = {
+			isa = PBXGroup;
+			children = (
+				F1A4F97F21AFE0AA0086087B /* FocusSquare.swift */,
+			);
+			path = "Focus Square";
+			sourceTree = "<group>";
+		};
+		F1A4F97221AF84A40086087B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F1A4F97921AFD3AB0086087B /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F1A4F97321AF84B30086087B /* Additional ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F1A4F97B21AFD5670086087B /* StatusViewController.swift */,
+				F1A4F97D21AFDE640086087B /* VirtualObjectSelection.swift */,
+			);
+			path = "Additional ViewControllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +191,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1A4F97E21AFDE640086087B /* VirtualObjectSelection.swift in Sources */,
+				F1A4F98021AFE0AA0086087B /* FocusSquare.swift in Sources */,
+				F1A4F97C21AFD5670086087B /* StatusViewController.swift in Sources */,
+				F1A4F97A21AFD3AB0086087B /* Utilities.swift in Sources */,
 				F1A4F95C21AF7D590086087B /* ViewController.swift in Sources */,
 				F1A4F95821AF7D590086087B /* AppDelegate.swift in Sources */,
 			);
