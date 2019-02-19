@@ -99,4 +99,11 @@ class FocusSquare: SCNNode {
     
     /// List of the segments in the focus sqaure
     private var segments: [FocusSquare.Segment] = []
+    
+    override init() {
+        super.init()
+        opacity = 0.0
+        
+        let s1 = Segment(name: "s1", corner: .topLeft, alignment: .horizontal)
+    }
 }
